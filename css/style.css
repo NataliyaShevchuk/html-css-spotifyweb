@@ -1,5 +1,42 @@
+:root{
+    --light-grey: #D2D2D2;
+    --main-color: #141922;
+    --bottom-navbar: #282828;
+    --top-navbar: #080B12;
+    --hover-green: #78AE32;
+    --text-grey: #7B7D82;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body >*{
+    border: 1px dashed red;
+}
+.top-container{
+    flex-grow: 1;
+    display: flex;
+}
+.sidebar{
+    width: 60px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    flex-grow: 1;
+}
+.bottom-navbar{
+    flex-shrink: 0;
+}
+
