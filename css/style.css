@@ -71,7 +71,7 @@ img{
     display: none;
 }
 .green-detail{
-    border-left: 3px solid var(--hover-green);
+    border-left: 2px solid var(--hover-green);
 }
 .item-icon{
     font-size: 20px;
@@ -112,6 +112,7 @@ img{
 .main-container{
     flex-grow: 1;
     overflow: auto;
+    background-color: var(--main-color);
 }
 .top-bar{
     background-color: var(--top-navbar);
@@ -131,6 +132,32 @@ img{
     cursor: pointer;
     transform: scale(1.1);
 }
+
+
+.categories-bar{
+    padding: 0 1rem;
+}
+.categories-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.categories-list a{
+    text-decoration: none;
+    color: var(--text-grey);
+}
+.categories-list a > div{
+    padding: 1rem;
+    font-weight: 700;
+}
+.green-detail-bt{
+    border: 1px solid var(--hover-green);
+    width: 40px;
+    margin: 0.2rem 1.5rem;
+}
+
 
 .bottom-navbar{
     flex-shrink: 0;

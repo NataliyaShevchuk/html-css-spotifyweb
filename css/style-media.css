@@ -47,5 +47,7 @@
 }
 
 @media screen and (min-width: 992px){
-
+    .categories-bar{
+        padding: 0 10rem;
+    }
 }
