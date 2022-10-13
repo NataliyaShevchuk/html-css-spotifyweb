@@ -114,6 +114,9 @@ img{
     overflow: auto;
     background-color: var(--main-color);
 }
+/* .border-space{
+    padding: 1rem;
+} */
 .top-bar{
     background-color: var(--top-navbar);
     min-height: 80px;
@@ -127,6 +130,7 @@ img{
     color: white;
     padding: 1rem 3rem;
     margin: 1rem;
+    font-weight: 600;
 }
 .upgrade-btn:hover{
     cursor: pointer;
@@ -148,6 +152,10 @@ img{
     text-decoration: none;
     color: var(--text-grey);
 }
+.categories-list a:hover{
+    cursor: pointer;
+    color: white;
+}
 .categories-list a > div{
     padding: 1rem;
     font-weight: 700;
@@ -157,7 +165,61 @@ img{
     width: 40px;
     margin: 0.2rem 1.5rem;
 }
+.title{
+    padding: 2rem 1rem;
+    color: white;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+}
+.col{
+    padding: 0 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.card-album{
+    text-align: center;
+}
+
+.col-1-2{
+    flex-basis: 50%;
+}
+.col-2-2{
+    flex-basis: 100%;
+}
+.col-1-3{
+    flex-basis: calc(100% / 3);
+}
+.col-2-3{
+    flex-basis: calc(100% / 3 * 2);
+}
+.col-1-4{
+    flex-basis: 25%;
+}
+.col-2-4{
+    flex-basis: 50%;
+}
+.col-1-6{
+    flex-basis: calc(100% / 6);
+}
+
+.img-container{
+    padding-bottom: 1rem;
+}
+.album-title{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 0.7rem;
+}
+.album-subtitle{
+    color: var(--text-grey);
+}
 
 .bottom-navbar{
     flex-shrink: 0;
