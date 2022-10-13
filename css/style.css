@@ -211,6 +211,23 @@ img{
 
 .img-container{
     padding-bottom: 1rem;
+    position: relative;
+}
+.img-container > img:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.play-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 70px;
+    color: var(--light-grey);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 .album-title{
     color: white;
@@ -219,6 +236,13 @@ img{
 }
 .album-subtitle{
     color: var(--text-grey);
+}
+.sub-head{
+    padding-top: 0.5rem;
+    color: var(--text-grey);
+}
+.round-img{
+    border-radius: 50%;
 }
 
 .bottom-navbar{
