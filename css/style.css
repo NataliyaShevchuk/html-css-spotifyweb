@@ -41,6 +41,9 @@ img{
     flex-direction: column;
     background-color: black;
 }
+.sidebar-list li > a:hover {
+    color: white;
+}
 .sidebar .top-section{
     flex-shrink: 0;
 }
@@ -105,7 +108,27 @@ img{
 
 .main-container{
     flex-grow: 1;
+    overflow: auto;
 }
+.top-bar{
+    background-color: var(--top-navbar);
+    min-height: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.upgrade-btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 1rem 3rem;
+    margin: 1rem;
+}
+.upgrade-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .bottom-navbar{
     flex-shrink: 0;
 }
