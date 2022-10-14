@@ -35,6 +35,8 @@ img{
     display: flex;
     overflow: auto;
 }
+
+/* sidebar with top and middle section  */
 .sidebar{
     width: 60px;
     flex-shrink: 0;
@@ -88,6 +90,10 @@ img{
     padding-left: 1rem;
     padding-top: 1rem;
 }
+/* ------------------------ */
+
+
+/* bottom section of the sidebar */
 .middle-section, .bottom-section{
     color: var(--text-grey);
 }
@@ -101,7 +107,6 @@ img{
 .bolder{
     font-weight: 800;
 }
-
 .hr{
     border: 0.5px solid var(--text-grey);
     border-radius: 1rem;
@@ -109,15 +114,15 @@ img{
     display: none;
     margin-left: 10px;
 }
+/* ----------------------------- */
 
+/* main container + top bar with a cta  */
 .main-container{
     flex-grow: 1;
     overflow: auto;
     background-color: var(--main-color);
 }
-/* .border-space{
-    padding: 1rem;
-} */
+
 .top-bar{
     background-color: var(--top-navbar);
     min-height: 80px;
@@ -141,8 +146,9 @@ img{
     cursor: pointer;
     transform: scale(1.1);
 }
+/* ---------------------- */
 
-
+/* categories top bar */
 .categories-bar{
     padding: 0 1rem;
 }
@@ -165,16 +171,24 @@ img{
     padding: 1rem;
     font-weight: 700;
 }
+/* -----  */
+
+/* green line bottom  */
 .green-detail-bt{
     border: 1px solid var(--hover-green);
     width: 40px;
     margin: 0.2rem 1.5rem;
 }
+/* ------- */
+
+/* title  */
 .title{
     padding: 2rem 1rem;
     color: white;
 }
+/* ----- */
 
+/* main album section + row + card + col  */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +205,6 @@ img{
 .card-album{
     text-align: center;
 }
-
 .col-1-2{
     flex-basis: 50%;
 }
@@ -213,12 +226,15 @@ img{
 .col-1-6{
     flex-basis: calc(100% / 6);
 }
+/* ---------------------------------------- */
 
+
+
+/* image card + hover effect  */
 .img-container{
     margin-bottom: 1rem;
     position: relative;
 }
-
 .play-btn{
     display: flex;
     justify-content: center;
@@ -232,12 +248,16 @@ img{
     top: 0;
     opacity: 0;
 }
-
 .play-btn:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.51);
     opacity: 1;
 }
+/* --------------------------------- */
+
+
+
+/* card text section  */
 .album-title{
     color: white;
     font-weight: 600;
@@ -253,10 +273,29 @@ img{
 .round-img{
     border-radius: 50%;
 }
+/* ---------------------------- */
 
+
+
+/* bottom-navbar */
 .bottom-navbar{
     flex-shrink: 0;
     min-height: 60px;
     background-color: var(--bottom-navbar);
+    padding: 1rem;
+}
+.row-player{
+    display: flex;
+    padding: 0.5rem;
+}
+.img-container-player{
+    width: 5%;
+}
+.text-player{
+    padding: 0 1rem;
+}
+
+.no-pad{
+    padding-bottom: 0;
 }
 
