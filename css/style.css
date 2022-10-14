@@ -23,9 +23,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-body >*{
-    border: 1px dashed red;
-}
+
 img{
     width: 100%;
     display: block;
@@ -286,7 +284,7 @@ img{
 }
 .row-player{
     display: flex;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 }
 .img-container-player{
     width: 5%;
@@ -298,4 +296,30 @@ img{
 .no-pad{
     padding-bottom: 0;
 }
-
+.icons-container{
+    color: var(--text-grey);
+}
+.icon-player{
+    padding: 0 0.5rem;
+}
+.container-player-bar{
+    margin: 0 1rem;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: var(--text-grey);
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container div > button{
+    color: white;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+.big-font{
+    font-size: 1.8rem;
+}
