@@ -340,13 +340,12 @@ button{
 }
 .progress-container{
     padding: 1rem 0.5rem;
-
+    /* position: relative; */
 }
 .progress-bg{
     height: 4px;
     border-radius: 5px;
     background-color: var(--text-grey);
-
 }
 .progress-overlay{
     height: 4px;
@@ -354,6 +353,7 @@ button{
     background-color: var(--light-grey);
     width: 20%;
 }
+
 .container-dx{
     width: 200px;
     display: flex;
@@ -370,3 +370,33 @@ button{
     justify-content: flex-end;
     align-items: center;
 }
+.text-player .album-subtitle:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons-container div > button:hover{
+    cursor: pointer;
+    color: white;
+}
+.button-container div > button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.button-container-dx div > button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.progress-overlay:hover {
+    cursor: pointer;
+    background-color: var(--hover-green);
+    opacity: 1;
+}
+/* .point{
+    opacity: 0;
+    position: absolute;
+    left: 0.05;
+    top: 1rem;
+    color: white;
+}
+<i class="fa-solid point fa-circle"></i> */
