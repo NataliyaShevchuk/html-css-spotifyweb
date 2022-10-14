@@ -348,3 +348,9 @@ button{
     top: 1rem;
     width: 20%;
 }
+
+.button-container-dx div > button{
+    color: white;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
